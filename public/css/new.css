@@ -1,0 +1,112 @@
+#document.skn-mlf6.fontface, #document.skn-mlf6 .langSec .paragraph, #document.skn-mlf6 .infoSec .paragraph {
+    font-family: Century Gothic;
+}
+
+#document.skn-mlf6.fontsize, #document.skn-mlf6 .langSec .paragraph, #document.skn-mlf6 .infoSec .paragraph {
+    font-size: 10px;
+}
+
+#document.skn-mlf6.pagesize {
+    width: 595px;
+}
+
+#document.skn-mlf6, #document.skn-mlf6 table {
+    line-height: 13px;
+}
+
+#document.skn-mlf6 {
+    color: #504b48;
+    line-height: 13px;
+    word-wrap: break-word;
+    min-height: 792px;
+}
+.page-finalize #document {
+    box-shadow: 0 0 10px rgba(88,88,95,0.12);
+    background-color: #fff;
+    border: 1px solid #e8ecf0;
+}
+#document {
+    min-height: 795px;
+}
+#document, #dummyDocument {
+    box-sizing: content-box;
+    color: initial;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#document {
+    background-color: #fff;
+    cursor: default;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+* {
+    transition: color 0.2s, background-color .25s, border-color .5s, opacity .25s;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.page-finalize .preview-container {
+    font-size: 12px;
+    margin: 0 auto;
+    min-height: 835px;
+    margin-left: 109px;
+}
+
+body {
+    line-height: 1;
+    text-align: left;
+    font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" off;
+}
+body {
+    margin: 0;
+    height: 100%;
+    line-height: inherit;
+}
+.page-finalize {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+:root {
+    --is-css-loaded: 1;
+}
+html {
+    background: #fff;
+    color: #46464e;
+    font-size: 62.5%;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    height: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
